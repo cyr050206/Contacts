@@ -9,7 +9,7 @@ from flask import request, jsonify,flash
 from config import app, db
 from models import Contact
 
-app.config['SECRET_KEY'] =  'whatthefuckisthisbullshit'
+app.config['SECRET_KEY'] =  'bruh'
 
 @app.route('/contacts', methods=['GET'])#decorative function
 def get_contacts():
